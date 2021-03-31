@@ -4,29 +4,28 @@ languageCode = "en-us"
 paginate = 6
 summaryLength = "10"
 theme = "parsa-hugo"
-title = "Parsa Hugo | Personal Blog Template"
+title = "slideshow 5levels"
+[[menu.main]]
+hasChildren = true
+name = "Homepage"
+url = ""
+weight = 1
 [[menu.main]]
 name = "Homepage 1"
 parent = "Homepage"
 url = "homepage/home-1"
-weight = 1
 [[menu.main]]
 name = "Homepage 2"
 parent = "Homepage"
 url = "homepage/home-2"
-weight = 2
 [[menu.main]]
-name = "CONTACTOS"
-url = "contact"
-weight = 3
-[[menu.main]]
-name = "QUEM SOMOS"
+name = "About"
 url = "about"
 weight = 2
 [[menu.main]]
-hasChildren = true
-name = "Homepage"
-weight = 1
+name = "Contact"
+url = "contact"
+weight = 3
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 [params]
